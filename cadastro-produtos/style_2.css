@@ -1,0 +1,99 @@
+/* Estilo geral do corpo */
+body {
+    background: linear-gradient(120deg, #ff7043, #6a1b9a); /* Degradê laranja e roxo */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f9f8f8; /* Texto escuro */
+}
+
+/* Container principal */
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilização do título principal */
+h1 {
+    font-size: 2.5rem;
+    color: #6a1b9a; /* Roxo */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #ff7043; /* Laranja */
+}
+
+/* Estilização dos inputs */
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #6a1b9a; /* Roxo */
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f4f4f9; /* Cinza claro */
+    color: #333333;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff7043; /* Laranja */
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 112, 67, 0.5);
+}
+
+/* Estilização dos botões */
+button {
+    background: linear-gradient(45deg, #ff7043, #ff5722); /* Degradê de laranja */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho */
+    background: linear-gradient(45deg, #ff5722, #e64a19);
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #6a1b9a; /* Roxo */
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f4fc; /* Roxo claro */
+}
+
+tr:hover {
+    background-color: #ffebee; /* Laranja claro */
+}
